@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Feedback UI</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <div class="container" id="container">
+        <h1 class="heading">Feedback UI</h1>
+        <div class="ratings-container"id="ratings-container">
+            <div class="rating">
+                <img src="./images/sad.png" alt="sad icons"/>
+                <label>Unhappy</label>
+            </div>
+            <div class="rating">
+                <img src="./images/neutral.png" alt="neutal icons"/>
+                <label>Neutral</label>
+            </div>
+            <div class="rating">
+                <img src="./images/happiness.png" alt="happy icons"/>
+                <label>Satisfied</label>
+            </div>
+        </div>
+        <button class="btn"id="btn">Send Reviews</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
